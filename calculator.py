@@ -9,5 +9,11 @@ def divide(a,b):
     return a / b
  else:
      return "Ошибка: деление на 0"
-print ("Простой калькулятор")
-print("Доступные операции:+,-,*,/")
+def power(a,b):
+ return a ** b
+def square_root(a):
+ return a ** 0.5
+
+print ("Улучшенный  калькулятор")
+print("Доступные операции:+,-,*,/,^, sqrt")
+bash
